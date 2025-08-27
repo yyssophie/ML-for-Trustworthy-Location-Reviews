@@ -23,18 +23,18 @@ def sample_reviews(path, n=1000, seed=42):
     return sampled
 
 # 读取项目目录下的 reviews.json.gz
-sampled_reviews = sample_reviews("google local review data/review-Alabama_10.json", n=1000)
+sampled_reviews = sample_reviews("data/review-Illinois_10.json", n=1000)
 
 # 转换成 DataFrame 并保存
 df = pd.DataFrame(sampled_reviews)
 df["review_length"] = df["text"].apply(lambda x: len(str(x).split()))
-df.to_csv("google local review data/sampled_1000_reviews.csv", index=False)
+df.to_csv("data/sampled_1000_reviews.csv", index=False)
 print("已保存 sampled_1000_reviews.csv")
 
 
-reviews_df = pd.read_csv("google local review data/sampled_1000_reviews.csv")
+reviews_df = pd.read_csv("data/sampled_1000_reviews.csv")
 places_data = []
-with open("google local review data/meta-Alabama.json", "rt", encoding="utf-8") as f:
+with open("data/meta-Illinois.json", "rt", encoding="utf-8") as f:
     for i, line in enumerate(f, start=1):
         try:
             places_data.append(json.loads(line))
@@ -49,16 +49,18 @@ reviews_df['gmap_id'] = reviews_df['gmap_id'].astype(str)
 places_df['gmap_id'] = places_df['gmap_id'].astype(str)
 
 # inner join（只保留两个表都有 gmap_id 的）
-merged_df = reviews_df.merge(places_df, on="gmap_id", how="inner")
+merged_df = reviews_df.merge(
+    places_df.drop_duplicates(subset=["gmap_id"])
+    , on="gmap_id", how="left")
 
 print(f"合并后数据量: {len(merged_df)}")
 
 # 保存结果
-merged_df.to_csv("google local review data/reviews_with_places_1000.csv", index=False)
+merged_df.to_csv("data/reviews_with_places_1000.csv", index=False)
 print("已保存 reviews_with_places_1000.csv")
 
 
-df = pd.read_csv("google local review data/reviews_with_places_1000.csv")
+df = pd.read_csv("data/reviews_with_places_1000.csv")
 
 # 检查 description 列的缺失情况
 print("总行数:", len(df))

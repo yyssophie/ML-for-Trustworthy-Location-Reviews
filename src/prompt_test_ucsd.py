@@ -24,7 +24,9 @@ Your task is to parse a JSON object containing review data and accurately classi
 3. **"Irrelevant"**  
    The review content is completely unrelated to the location, service, or experience being reviewed.  
    - **Relevancy Rules**:  
-     - If short text (≤ N words) → need to carefully check relevance.  
+     - If short text (≤ 3 words) → need to carefully check relevance. 
+     - If the short text is generic but could plausibly describe the location (e.g., "Good", "Bad", "Nice"), treat as Valid (though low information).
+- If the adjective is unrelated to locations (e.g., "Blue", "Fast"), treat as Irrelevant. 
      - Check relevancy order:  
        1. Compare review text with **description** (if available).  
        2. Compare review text with **category** (if available).  
@@ -106,64 +108,78 @@ Your output must be a single, valid JSON object, perfectly matching the format o
 
 load_dotenv()
 
-df = pd.read_csv("ucsd/reviews_with_places_1000.csv")
+df = pd.read_csv("google local review data/data/reviews_with_places_1000.csv")
 
 results = []
+failed_rows = []
 client = OpenAI(
         api_key=os.getenv("OPENAI_API_KEY"),
         base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
 )
 
 
-def process_single_row(row_data):
+def process_single_row(row_data, max_retries=2):
     """
     Processes a single row of data by sending it to an LLM API
     and parsing the response.
 
     Args:
         row_data (tuple): A tuple containing the index and the row (as a pandas Series).
+        max_retries (int): Number of retries if the API call or parsing fails.
 
     Returns:
         dict or None: A dictionary with the processed result or None if an error occurs.
     """
     index, row = row_data
-    try:
-        # 1. Prepare the data for the API call
-        review_data = {
-            "business_name": row["name_y"],
-            "rating": int(row["rating"]),
-            "text": row["text"],
-            "description": row["description"] if pd.notna(row["description"]) else "No description available",
-            "category": row["category"] if pd.notna(row["category"]) else "No category available"
-        }
-        json_input_string = json.dumps(review_data, ensure_ascii=False)
 
-        # 2. Make the API call
-        completion = client.chat.completions.create(
-            model="claude-sonnet-4-20250514",
-            messages=[
-                {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT},
-                {'role': 'user', 'content': json_input_string}
-            ],
-            response_format={"type": "json_object"},
-        )
+    review_data = {
+        "business_name": row["name_y"],
+        "rating": int(row["rating"]),
+        "text": row["text"],
+        "description": row["description"] if pd.notna(row["description"]) else "No description available",
+        "category": row["category"] if pd.notna(row["category"]) else "No category available"
+    }
+    json_input_string = json.dumps(review_data, ensure_ascii=False)
 
-        # 3. Parse the response and format the result
-        llm_output = json.loads(completion.choices[0].message.content)
-        
-        result_row = {
-            "business_name": row["name_y"],
-            "text": row["text"],
-            "predicted_label": llm_output.get("label"),
-            "prediction_reason": llm_output.get("reason")
-        }
-        return result_row
+    for attempt in range(max_retries):
+        try:
+            # 1. Make the API call
+            completion = client.chat.completions.create(
+                model="claude-sonnet-4-20250514",
+                messages=[
+                    {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT}, 
+                ],
+                response_format={"type": "json_object"},
+                max_tokens=512
+            )
 
-    except (json.JSONDecodeError, TypeError, Exception) as e:
-        # Handle potential errors during API call or JSON parsing
-        print(f"Failed to process row {index + 1}: {e}")
-        return None
-    
+            # 2. Parse the response
+            raw_output = completion.choices[0].message.content.strip()
+            if not raw_output:
+                raise ValueError("空输出")
+
+            llm_output = json.loads(raw_output)
+
+            # 3. Format the result
+            return {
+                "business_name": row["name_y"],
+                "text": row["text"],
+                "predicted_label": llm_output.get("label"),
+                "prediction_reason": llm_output.get("reason")
+            }
+
+        except Exception as e:
+            print(f"Row {index + 1} attempt {attempt + 1} failed: {e}")
+
+    # 如果所有尝试都失败，返回 None
+    return {
+        "index": index,
+        "business_name": row["name_y"],
+        "rating": row["rating"],
+        "text": row["text"],
+        "error": "Failed after retries"
+    }
+
 
 results = []
 # Prepare tasks by creating a list of tuples, each containing an index and a row
@@ -186,7 +202,12 @@ with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
 # Convert the list of results into a new DataFrame
 results_df = pd.DataFrame(results)
 
-# Display the first few rows of the result
-print(results_df.head())
 # Save the results to a CSV file
-results_df.to_csv("moderated_reviews.csv", index=False)
+results_df.to_csv("label_reviews.csv", index=False)
+
+df = pd.read_csv("moderated_reviews.csv")
+print("总共有", len(df), "条记录")
+
+duplicates = df[df.duplicated(subset=["business_name"], keep=False)]
+print("重复的 business_name 总数:", duplicates["business_name"].nunique())
+print("涉及的重复记录数:", len(duplicates))
