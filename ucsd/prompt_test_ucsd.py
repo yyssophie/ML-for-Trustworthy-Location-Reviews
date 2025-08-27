@@ -1,0 +1,134 @@
+import pandas as pd
+import json
+from openai import OpenAI
+import os
+from dotenv import load_dotenv
+
+ENGLSIH_SYS_PRMOPT="""
+You are a top-tier content moderation expert specializing in the evaluation of Google Maps location reviews. Your task is to parse a JSON object containing review data and accurately classify it according to a detailed set of policies.
+
+# Moderation Policies & Label Definitions:
+1.  **"Valid"**: A normal review that is relevant to the location and shares a genuine experience.
+2.  **"Advertisement"**: The primary purpose of the review is to promote another product, service, or website. It may contain promotional codes, links, or clear commercial intent.
+3.  **"Irrelevant"**: The review content is completely unrelated to the location, service, or experience being reviewed. For example, discussing personal life, politics, or other unrelated topics.
+4.  **"Rant_Without_Visit"**: The review is filled with anger or complaints, but the content explicitly states or strongly implies the user has never actually visited the location (e.g., "I heard this place was bad," "My friend told me not to go here"). A 1-star rating increases this likelihood.
+
+# Examples:
+The following are correctly classified examples. Please learn from them to guide your judgment.
+
+---
+# Input 1:
+{
+  "business_name": "Mama's Pizzeria",
+  "rating": 5,
+  "text": "The pizza here is the best I've ever had! The staff was also very friendly, I will definitely come back again."
+}
+# Output 1:
+{
+  "label": "Valid",
+  "reason": "The review describes a genuine dining experience at the location, and the 5-star rating is consistent with the positive text."
+}
+---
+# Input 2:
+{
+  "business_name": "Burger Palace",
+  "rating": 5,
+  "text": "The best burger in town! Visit www.burgerpalacepromo.com now for a 20% discount!"
+}
+# Output 2:
+{
+  "label": "Advertisement",
+  "reason": "The review contains a promotional external link, despite the 5-star rating."
+}
+---
+# Input 3:
+{
+  "business_name": "The Grand Library Cafe",
+  "rating": 3,
+  "text": "My new phone takes really clear pictures. By the way, this place is way too noisy."
+}
+# Output 3:
+{
+  "label": "Irrelevant",
+  "reason": "The main subject of the review is a new phone, which is unrelated to the cafe."
+}
+---
+# Input 4:
+{
+  "business_name": "City Central Parking",
+  "rating": 1,
+  "text": "I've never been here, but I read online that the owner is very rude. I'll never go!"
+}
+# Output 4:
+{
+  "label": "Rant_Without_Visit",
+  "reason": "The reviewer explicitly states they have never visited the location, and the 1-star rating reflects a strong negative sentiment based on hearsay."
+}
+---
+
+# Task Instructions:
+Now, strictly follow the policies and examples above to analyze and classify the following input JSON object.
+Your output must be a single, valid JSON object, perfectly matching the format of the examples.
+
+# Input JSON:
+{{json_input_string}}
+
+# Output JSON:
+"""
+
+load_dotenv()
+
+df = pd.read_csv("reviews_with_places.csv")
+
+results = []
+client = OpenAI(
+        api_key=os.getenv("OPENAI_API_KEY"),
+        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+)
+
+
+for index, row in df.iterrows():
+        review_data = {
+            "business_name": row["name_y"],
+            "rating": int(row["rating"]),
+            "text": row["text"],
+            "description": row["description"] if pd.notna(row["description"]) else "No description available",
+            "category": row["category"] if pd.notna(row["category"]) else "No category available"
+        }
+
+
+
+        json_input_string = json.dumps(review_data, ensure_ascii=False)
+
+        
+        
+        completion = client.chat.completions.create(
+        model="claude-sonnet-4-20250514",  
+        messages=[
+            {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT},
+            {'role': 'user', 'content': json_input_string}
+        ],
+        response_format={"type": "json_object"},
+        
+        )
+
+        try:
+            print(f"Processing starst for row {index + 1}") 
+            # 将LLM返回的JSON字符串解析成Python字典
+            llm_output = json.loads(completion.choices[0].message.content)
+            
+            # 将原始数据和LLM的标签合并
+            result_row = {
+                "business_name": row["name_y"],
+                "text": row["text"],
+                "predicted_label": llm_output.get("label"),
+                "prediction_reason": llm_output.get("reason")
+            }
+            results.append(result_row)
+            
+        except (json.JSONDecodeError, TypeError) as e:
+            print(f"处理第 {index + 1} 行时解析LLM响应失败: {e}")
+print(f"Processing ends")
+results_df = pd.DataFrame(results)
+results_df.to_csv("prompt_output_jlh_test.csv", index=False)
+results_df
