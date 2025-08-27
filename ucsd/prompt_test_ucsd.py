@@ -3,6 +3,9 @@ import json
 from openai import OpenAI
 import os
 from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from tqdm import tqdm
+
 
 ENGLSIH_SYS_PRMOPT="""
 You are a top-tier content moderation expert specializing in the evaluation of Google Maps location reviews. Your task is to parse a JSON object containing review data and accurately classify it according to a detailed set of policies.
@@ -87,7 +90,20 @@ client = OpenAI(
 )
 
 
-for index, row in df.iterrows():
+def process_single_row(row_data):
+    """
+    Processes a single row of data by sending it to an LLM API
+    and parsing the response.
+
+    Args:
+        row_data (tuple): A tuple containing the index and the row (as a pandas Series).
+
+    Returns:
+        dict or None: A dictionary with the processed result or None if an error occurs.
+    """
+    index, row = row_data
+    try:
+        # 1. Prepare the data for the API call
         review_data = {
             "business_name": row["name_y"],
             "rating": int(row["rating"]),
@@ -95,40 +111,55 @@ for index, row in df.iterrows():
             "description": row["description"] if pd.notna(row["description"]) else "No description available",
             "category": row["category"] if pd.notna(row["category"]) else "No category available"
         }
-
-
-
         json_input_string = json.dumps(review_data, ensure_ascii=False)
 
-        
-        
+        # 2. Make the API call
         completion = client.chat.completions.create(
-        model="claude-sonnet-4-20250514",  
-        messages=[
-            {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT},
-            {'role': 'user', 'content': json_input_string}
-        ],
-        response_format={"type": "json_object"},
-        
+            model="claude-sonnet-4-20250514",
+            messages=[
+                {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT},
+                {'role': 'user', 'content': json_input_string}
+            ],
+            response_format={"type": "json_object"},
         )
 
-        try:
-            print(f"Processing starst for row {index + 1}") 
-            # 将LLM返回的JSON字符串解析成Python字典
-            llm_output = json.loads(completion.choices[0].message.content)
-            
-            # 将原始数据和LLM的标签合并
-            result_row = {
-                "business_name": row["name_y"],
-                "text": row["text"],
-                "predicted_label": llm_output.get("label"),
-                "prediction_reason": llm_output.get("reason")
-            }
-            results.append(result_row)
-            
-        except (json.JSONDecodeError, TypeError) as e:
-            print(f"处理第 {index + 1} 行时解析LLM响应失败: {e}")
-print(f"Processing ends")
+        # 3. Parse the response and format the result
+        llm_output = json.loads(completion.choices[0].message.content)
+        
+        result_row = {
+            "business_name": row["name_y"],
+            "text": row["text"],
+            "predicted_label": llm_output.get("label"),
+            "prediction_reason": llm_output.get("reason")
+        }
+        return result_row
+
+    except (json.JSONDecodeError, TypeError, Exception) as e:
+        # Handle potential errors during API call or JSON parsing
+        print(f"Failed to process row {index + 1}: {e}")
+        return None
+    
+
+results = []
+# Prepare tasks by creating a list of tuples, each containing an index and a row
+tasks_to_run = list(df.iterrows())
+
+# Set the number of concurrent workers. Adjust this based on your system and API rate limits.
+CONCURRENCY = 10 
+
+with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
+    # Submit all tasks to the executor
+    futures = [executor.submit(process_single_row, task) for task in tasks_to_run]
+
+    # Process futures as they complete and show a progress bar
+    for future in tqdm(as_completed(futures), total=len(tasks_to_run), desc="Processing reviews"):
+        result = future.result()
+        # Only append successful results to the list
+        if result:
+            results.append(result)
+
+# Convert the list of results into a new DataFrame
 results_df = pd.DataFrame(results)
-results_df.to_csv("prompt_output_jlh_test.csv", index=False)
-results_df
+
+# Display the first few rows of the result
+print(results_df.head())
