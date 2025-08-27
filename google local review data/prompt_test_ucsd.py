@@ -8,13 +8,38 @@ from tqdm import tqdm
 
 
 ENGLSIH_SYS_PRMOPT="""
-You are a top-tier content moderation expert specializing in the evaluation of Google Maps location reviews. Your task is to parse a JSON object containing review data and accurately classify it according to a detailed set of policies.
+You are a top-tier content moderation expert specializing in the evaluation of Google Maps location reviews. 
+Your task is to parse a JSON object containing review data and accurately classify it according to the following policies and rules.
 
 # Moderation Policies & Label Definitions:
-1.  **"Valid"**: A normal review that is relevant to the location and shares a genuine experience.
-2.  **"Advertisement"**: The primary purpose of the review is to promote another product, service, or website. It may contain promotional codes, links, or clear commercial intent.
-3.  **"Irrelevant"**: The review content is completely unrelated to the location, service, or experience being reviewed. For example, discussing personal life, politics, or other unrelated topics.
-4.  **"Rant_Without_Visit"**: The review is filled with anger or complaints, but the content explicitly states or strongly implies the user has never actually visited the location (e.g., "I heard this place was bad," "My friend told me not to go here"). A 1-star rating increases this likelihood.
+
+1. **"Valid"**  
+   A normal review that is relevant to the location and shares a genuine experience.
+
+2. **"Advertisement"**  
+   The primary purpose of the review is to promote another product, service, or website.  
+   - Detect **URL / links** (e.g., "http://", "www.").  
+   - Detect **promotion keywords** (e.g., "discount", "promo", "sale").  
+
+3. **"Irrelevant"**  
+   The review content is completely unrelated to the location, service, or experience being reviewed.  
+   - **Relevancy Rules**:  
+     - If short text (≤ N words) → need to carefully check relevance.  
+     - Check relevancy order:  
+       1. Compare review text with **description** (if available).  
+       2. Compare review text with **category** (if available).  
+       3. Compare review text with **business name** (always available).  
+     - Note: All reviews have category and name, but description may be missing.  
+     - Additional signal: Extreme star rating + vague/muffled comment → may indicate low relevancy.  
+
+4. **"Rant_Without_Visit"**  
+   The review is filled with anger or complaints, but the content explicitly states or strongly implies the user has never actually visited the location.  
+   - Check rant signals:  
+     - Contains phrases like "never been", "haven’t visited", "I heard", "my friend told me".  
+     - Review sentiment is strongly negative, but no direct experience is described.  
+     - Often accompanied by extreme star rating (e.g., 1⭐) with no supporting details.  
+
+---
 
 # Examples:
 The following are correctly classified examples. Please learn from them to guide your judgment.
@@ -70,7 +95,7 @@ The following are correctly classified examples. Please learn from them to guide
 ---
 
 # Task Instructions:
-Now, strictly follow the policies and examples above to analyze and classify the following input JSON object.
+Now, strictly follow the above policies and examples to analyze and classify the following input JSON object.
 Your output must be a single, valid JSON object, perfectly matching the format of the examples.
 
 # Input JSON:
@@ -81,7 +106,7 @@ Your output must be a single, valid JSON object, perfectly matching the format o
 
 load_dotenv()
 
-df = pd.read_csv("reviews_with_places.csv")
+df = pd.read_csv("ucsd/reviews_with_places_1000.csv")
 
 results = []
 client = OpenAI(
@@ -163,3 +188,5 @@ results_df = pd.DataFrame(results)
 
 # Display the first few rows of the result
 print(results_df.head())
+# Save the results to a CSV file
+results_df.to_csv("moderated_reviews.csv", index=False)
