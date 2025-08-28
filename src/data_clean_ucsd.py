@@ -3,11 +3,17 @@ import json
 import pandas as pd
 from openai import OpenAI
 import random
+from tqdm import tqdm
 
 def sample_reviews(path, n=1000, seed=42):
+    # 第一次遍历，统计总行数
+    with open(path, 'rt', encoding='utf-8') as f:
+        total_lines = sum(1 for _ in f)
+
     reviews = []
-    with open(path, 'rt', encoding='utf-8') as f:  # 'rt' 表示文本模式
-        for line in f:
+    # 第二次遍历，显示进度条
+    with open(path, 'rt', encoding='utf-8') as f:
+        for line in tqdm(f, total=total_lines, desc="Processing reviews"):
             try:
                 review = json.loads(line)
                 if review.get("text") and review["text"].strip():  # 过滤掉空评论
@@ -22,19 +28,19 @@ def sample_reviews(path, n=1000, seed=42):
     sampled = random.sample(reviews, min(n, len(reviews)))
     return sampled
 
-# 读取项目目录下的 reviews.json.gz
-sampled_reviews = sample_reviews("data/review-Illinois_10.json", n=1000)
+# 读取项目目录下的 reviews.json
+sampled_reviews = sample_reviews("data/review-Texas_10.json", n=1000)
 
 # 转换成 DataFrame 并保存
 df = pd.DataFrame(sampled_reviews)
 df["review_length"] = df["text"].apply(lambda x: len(str(x).split()))
-df.to_csv("data/sampled_1000_reviews.csv", index=False)
-print("已保存 sampled_1000_reviews.csv")
+df.to_csv("data/sampled_1000_reviews_Texas.csv", index=False)
+print("已保存 sampled_1000_reviews_Texas.csv")
 
 
-reviews_df = pd.read_csv("data/sampled_1000_reviews.csv")
+reviews_df = pd.read_csv("data/sampled_1000_reviews_Texas.csv")
 places_data = []
-with open("data/meta-Illinois.json", "rt", encoding="utf-8") as f:
+with open("data/meta-Texas.json", "rt", encoding="utf-8") as f:
     for i, line in enumerate(f, start=1):
         try:
             places_data.append(json.loads(line))
@@ -56,11 +62,11 @@ merged_df = reviews_df.merge(
 print(f"合并后数据量: {len(merged_df)}")
 
 # 保存结果
-merged_df.to_csv("data/reviews_with_places_1000.csv", index=False)
-print("已保存 reviews_with_places_1000.csv")
+merged_df.to_csv("data/reviews_with_places_1000_Texas.csv", index=False)
+print("已保存 reviews_with_places_1000_Texas.csv")
 
 
-df = pd.read_csv("data/reviews_with_places_1000.csv")
+df = pd.read_csv("data/reviews_with_places_1000_Texas.csv")
 
 # 检查 description 列的缺失情况
 print("总行数:", len(df))

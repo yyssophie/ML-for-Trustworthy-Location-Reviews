@@ -24,9 +24,8 @@ Your task is to parse a JSON object containing review data and accurately classi
 3. **"Irrelevant"**  
    The review content is completely unrelated to the location, service, or experience being reviewed.  
    - **Relevancy Rules**:  
-     - If short text (≤ 3 words) → need to carefully check relevance. 
-     - If the short text is generic but could plausibly describe the location (e.g., "Good", "Bad", "Nice"), treat as Valid (though low information).
-- If the adjective is unrelated to locations (e.g., "Blue", "Fast"), treat as Irrelevant. 
+     - If short text (≤ N words) → need to carefully check relevance. 
+     - If the subject or adjective in the short text does not relate to the business description, category, or name, classify as Irrelevant.
      - Check relevancy order:  
        1. Compare review text with **description** (if available).  
        2. Compare review text with **category** (if available).  
@@ -108,7 +107,7 @@ Your output must be a single, valid JSON object, perfectly matching the format o
 
 load_dotenv()
 
-df = pd.read_csv("google local review data/data/reviews_with_places_1000.csv")
+df = pd.read_csv("data/reviews_with_places_1000_Illinois.csv")
 
 results = []
 failed_rows = []
@@ -148,6 +147,7 @@ def process_single_row(row_data, max_retries=2):
                 model="claude-sonnet-4-20250514",
                 messages=[
                     {'role': 'system', 'content': ENGLSIH_SYS_PRMOPT}, 
+                    {'role': 'user', 'content': json_input_string}
                 ],
                 response_format={"type": "json_object"},
                 max_tokens=512
@@ -203,11 +203,7 @@ with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
 results_df = pd.DataFrame(results)
 
 # Save the results to a CSV file
-results_df.to_csv("label_reviews.csv", index=False)
+results_df.to_csv("data/label_reviews_Illinois.csv", index=False)
 
-df = pd.read_csv("moderated_reviews.csv")
+df = pd.read_csv("data/label_reviews_Illinois.csv")
 print("总共有", len(df), "条记录")
-
-duplicates = df[df.duplicated(subset=["business_name"], keep=False)]
-print("重复的 business_name 总数:", duplicates["business_name"].nunique())
-print("涉及的重复记录数:", len(duplicates))
