@@ -219,3 +219,9 @@ __marimo__/
 
 # Json file
 *.json
+
+# 1st version data collection 
+data/1st_data_collection
+
+# Previously generated data not in use
+data/previously_generated_data_not_in_use/
