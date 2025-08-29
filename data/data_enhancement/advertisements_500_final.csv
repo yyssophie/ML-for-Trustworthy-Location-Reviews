@@ -1,0 +1,501 @@
+business_name,text,predicted_label,prediction_reason
+Bluebird Taproom,"Try our new succulent sets and get 20% off. Limited-time only, swing by today.",advertisement,Contains explicit discount percentage
+Maple Bike Shop,Enjoy 20% off with every wood-fired pizzas. Available exclusively if you reserve a table.,advertisement,Contains explicit discount percentage
+Silverleaf Music Academy,Special deal at bubble teas: enjoy 20% off when you grab yours before until supplies last.,advertisement,Contains explicit discount percentage
+Crimson Dental Studio,Special deal at tandoori specials: enjoy buy 1 get 1 free when you join today before for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Trattoria,Our wood-fired pizzas is now just $29. Grab this deal before by Friday.,advertisement,Highlights specific price anchor as promotion
+Nova Kitchen,Celebrate with us—bonus class included on all signature burgers this this weekend. Don’t miss out!,advertisement,Time-limited call-to-action
+Skyline Wine Bar,Our tomahawk steaks is now just $99. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Starlight Tech Repair,Celebrate with us—a free sample gift on all taco trios this this week. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Auto Detailing,"Looking for the best stationery bundles? We’ve got you covered with bonus class included, valid by Sunday night.",advertisement,Promotional tone with call-to-action
+Skyline Pet Supply,Join now and receive 30% off on your first eye exams. grab yours!,advertisement,Contains explicit discount percentage
+Stonebridge Pilates Studio,Our ramen bowls is now just $99. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Stonebridge Gelateria,Our signature burgers is now just $99. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Nova Florist,Our cold brew coffee is now just $19. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Amber Eye Clinic,"Looking for the best gel manicures? We’ve got you covered with 50% off, valid today.",advertisement,Contains explicit discount percentage
+Oakwood Bistro,Celebrate with us—a free topping on all wine tastings this today. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Garden Center,Join now and receive 50% off on your first sushi platters. swing by!,advertisement,Contains explicit discount percentage
+Aspen Yoga Studio,Our bootcamp classes is now just $39. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Nova Music Academy,First-time visitors get a free sample gift for tandoori specials. Offer ends by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Sushi Bar,First-time visitors get bonus class included for eye exams. Offer ends before month-end.,advertisement,Time-limited call-to-action
+Maple Barbershop,Join now and receive bonus class included on your first taco trios. preorder!,advertisement,Promotional tone with call-to-action
+Marble Pet Supply,Celebrate with us—buy 1 get 1 free on all ramen bowls this today. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Pet Supply,"Looking for the best taco trios? We’ve got you covered with 50% off, valid today.",advertisement,Contains explicit discount percentage
+Maple Pizzeria,"Try our new deep tissue massages and get complimentary drink. Limited-time only, visit us today.",advertisement,Time-limited call-to-action
+Cedar Burger Joint,Our teeth whitening is now just $59. Grab this deal before by Sunday night.,advertisement,Highlights specific price anchor as promotion
+Crimson Cafe,Enjoy a free sample gift with every stationery bundles. Available exclusively if you join today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Garden Center,"Looking for the best deep tissue massages? We’ve got you covered with free delivery, valid before month-end.",advertisement,Includes giveaway/freebie or BOGO promotion
+Stonebridge Burger Joint,Don’t wait—50% off across all stationery bundles. Offer ends all of September.,advertisement,Contains explicit discount percentage
+Pearl Music Academy,Special deal at sourdough loaves: enjoy a free side when you reserve a table before this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Diner,Love eye exams? Take advantage of our 30% off happening this weekend.,advertisement,Contains explicit discount percentage
+Bamboo Sushi Bar,Special deal at signature burgers: enjoy bonus class included when you preorder before by Sunday night.,advertisement,Promotional tone with call-to-action
+Pearl Fitness Club,Join now and receive free delivery on your first wood-fired pizzas. book online!,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Kitchen,Special deal at sushi platters: enjoy 20% off when you download our app before by Sunday night.,advertisement,Contains explicit discount percentage
+Urban Nail Spa,First-time visitors get complimentary drink for stationery bundles. Offer ends before month-end.,advertisement,Time-limited call-to-action
+Riverstone Barbershop,Our hair coloring packages is now just $89. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Moonrise Day Spa,"Looking for the best hair coloring packages? We’ve got you covered with a free sample gift, valid all of September.",advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Steakhouse,Join now and receive buy 1 get 1 free on your first deep tissue massages. book online!,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Bike Shop,"Looking for the best gel manicures? We’ve got you covered with 20% off, valid this weekend.",advertisement,Contains explicit discount percentage
+Sunset Bookshop,Enjoy 20% off with every cold brew coffee. Available exclusively if you download our app.,advertisement,Contains explicit discount percentage
+Amber Auto Detailing,"Try our new deep tissue massages and get a free side. Limited-time only, book online today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Bistro,"Try our new gel manicures and get 50% off. Limited-time only, preorder today.",advertisement,Contains explicit discount percentage
+Summit Eye Clinic,Love signature burgers? Take advantage of our 30% off happening before month-end.,advertisement,Contains explicit discount percentage
+Bamboo Hair Lounge,First-time visitors get a free topping for wine tastings. Offer ends by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Saffron Gelateria,"Looking for the best bubble teas? We’ve got you covered with buy 1 get 1 free, valid until supplies last.",advertisement,Includes giveaway/freebie or BOGO promotion
+Cobalt Garden Center,"Try our new wine tastings and get free delivery. Limited-time only, swing by today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Hair Lounge,Celebrate with us—buy 1 get 1 free on all ramen bowls this before month-end. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Pâtisserie,Love gel manicures? Take advantage of our free delivery happening all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Tech Repair,First-time visitors get 50% off for bootcamp classes. Offer ends before month-end.,advertisement,Contains explicit discount percentage
+Cedar Burger Joint,First-time visitors get a free sample gift for wood-fired pizzas. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Florist,Join now and receive 50% off on your first teeth whitening. book online!,advertisement,Contains explicit discount percentage
+Maple Pâtisserie,"Looking for the best bubble teas? We’ve got you covered with 20% off, valid today.",advertisement,Contains explicit discount percentage
+Rosewood Auto Detailing,First-time visitors get a free side for stationery bundles. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Starlight Day Spa,Our espresso drinks is now just $39. Grab this deal before this weekend.,advertisement,Highlights specific price anchor as promotion
+Amber Garden Center,"Try our new taco trios and get bonus class included. Limited-time only, join today today.",advertisement,Time-limited call-to-action
+Sunset Steakhouse,Join now and receive 50% off on your first gel manicures. order now!,advertisement,Contains explicit discount percentage
+Urban Hair Lounge,Join now and receive 30% off on your first signature burgers. reserve a table!,advertisement,Contains explicit discount percentage
+Fairview Taproom,Love signature burgers? Take advantage of our a free side happening today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Cafe,Our succulent sets is now just $59. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Nova Wine Bar,Don’t wait—bonus class included across all dental cleanings. Offer ends today.,advertisement,Time-limited call-to-action
+Nova Dental Studio,"Try our new deep tissue massages and get 20% off. Limited-time only, download our app today.",advertisement,Contains explicit discount percentage
+Amber Florist,Enjoy 20% off with every signature burgers. Available exclusively if you download our app.,advertisement,Contains explicit discount percentage
+Cobalt Garden Center,First-time visitors get 30% off for bootcamp classes. Offer ends until supplies last.,advertisement,Contains explicit discount percentage
+Ivy Taproom,First-time visitors get 30% off for climbing day passes. Offer ends all of September.,advertisement,Contains explicit discount percentage
+Rosewood Burger Joint,Our wood-fired pizzas is now just $69. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Copper Car Wash,Don’t wait—complimentary drink across all hair coloring packages. Offer ends until supplies last.,advertisement,Time-limited call-to-action
+Silverleaf Music Academy,Our signature burgers is now just $79. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Fairview Wine Bar,Don’t wait—buy 1 get 1 free across all succulent sets. Offer ends until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Sushi Bar,Special deal at espresso drinks: enjoy free delivery when you visit us before this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Luna Coffee Roasters,Love deep tissue massages? Take advantage of our complimentary drink happening for the next 48 hours.,advertisement,Promotional tone with call-to-action
+Pearl Tea House,"Try our new yoga passes and get buy 1 get 1 free. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Music Academy,Love bootcamp classes? Take advantage of our 30% off happening until supplies last.,advertisement,Contains explicit discount percentage
+Bamboo Burger Joint,Don’t wait—a free side across all climbing day passes. Offer ends until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Climb Gym,Enjoy a free topping with every deep tissue massages. Available exclusively if you order now.,advertisement,Includes giveaway/freebie or BOGO promotion
+Stonebridge Kitchen,Enjoy 50% off with every sushi platters. Available exclusively if you book online.,advertisement,Contains explicit discount percentage
+Juniper Music Academy,Special deal at tomahawk steaks: enjoy 20% off when you grab yours before until supplies last.,advertisement,Contains explicit discount percentage
+Summit Garden Center,First-time visitors get 50% off for espresso drinks. Offer ends by Sunday night.,advertisement,Contains explicit discount percentage
+Crimson Osteria,Join now and receive free delivery on your first teeth whitening. download our app!,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Gelateria,Join now and receive a free sample gift on your first yoga passes. swing by!,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Day Spa,Enjoy buy 1 get 1 free with every dental cleanings. Available exclusively if you preorder.,advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Auto Detailing,Celebrate with us—complimentary drink on all fresh flower bouquets this today. Don’t miss out!,advertisement,Time-limited call-to-action
+Maple Yoga Studio,Enjoy buy 1 get 1 free with every bubble teas. Available exclusively if you grab yours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Steakhouse,Special deal at wood-fired pizzas: enjoy a free sample gift when you swing by before this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Gelateria,"Try our new wood-fired pizzas and get a free sample gift. Limited-time only, order now today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Tutoring Center,"Looking for the best espresso drinks? We’ve got you covered with free delivery, valid until supplies last.",advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Pet Supply,Special deal at gel manicures: enjoy complimentary drink when you swing by before this week.,advertisement,Time-limited call-to-action
+Golden Tutoring Center,Celebrate with us—50% off on all teeth whitening this before month-end. Don’t miss out!,advertisement,Contains explicit discount percentage
+Highland Pilates Studio,First-time visitors get a free side for wood-fired pizzas. Offer ends all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Yoga Studio,Love espresso drinks? Take advantage of our 30% off happening until supplies last.,advertisement,Contains explicit discount percentage
+Aspen Pet Supply,"Try our new bubble teas and get a free sample gift. Limited-time only, join today today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Aspen Trattoria,Don’t wait—20% off across all wine tastings. Offer ends until supplies last.,advertisement,Contains explicit discount percentage
+Maple Barbershop,Celebrate with us—50% off on all dental cleanings this by Sunday night. Don’t miss out!,advertisement,Contains explicit discount percentage
+Cobalt Coffee Roasters,"Try our new stationery bundles and get buy 1 get 1 free. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Diner,Enjoy 30% off with every fresh flower bouquets. Available exclusively if you book online.,advertisement,Contains explicit discount percentage
+Starlight Burger Joint,Celebrate with us—20% off on all hair coloring packages this all of September. Don’t miss out!,advertisement,Contains explicit discount percentage
+Golden Cafe,Don’t wait—20% off across all stationery bundles. Offer ends this week.,advertisement,Contains explicit discount percentage
+Bluebird Pâtisserie,"Try our new cold brew coffee and get buy 1 get 1 free. Limited-time only, preorder today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Barbershop,Don’t wait—30% off across all wood-fired pizzas. Offer ends this week.,advertisement,Contains explicit discount percentage
+Amber Tutoring Center,"Try our new climbing day passes and get 20% off. Limited-time only, join today today.",advertisement,Contains explicit discount percentage
+Summit Bookshop,Our stationery bundles is now just $39. Grab this deal before today.,advertisement,Highlights specific price anchor as promotion
+Bluebird Bike Shop,Celebrate with us—bonus class included on all deep tissue massages this this weekend. Don’t miss out!,advertisement,Time-limited call-to-action
+Luna Tutoring Center,"Looking for the best yoga passes? We’ve got you covered with a free sample gift, valid today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Rustic Florist,Special deal at tandoori specials: enjoy 20% off when you order now before by Sunday night.,advertisement,Contains explicit discount percentage
+Ivy Taproom,Don’t wait—complimentary drink across all bootcamp classes. Offer ends by Sunday night.,advertisement,Time-limited call-to-action
+Sunset Bookshop,Don’t wait—a free side across all wood-fired pizzas. Offer ends by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Gelateria,"Looking for the best sourdough loaves? We’ve got you covered with buy 1 get 1 free, valid before month-end.",advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Osteria,Enjoy 50% off with every yoga passes. Available exclusively if you preorder.,advertisement,Contains explicit discount percentage
+Amber Diner,Join now and receive 30% off on your first hair coloring packages. sign up!,advertisement,Contains explicit discount percentage
+Amber Garden Center,"Try our new yoga passes and get 50% off. Limited-time only, book online today.",advertisement,Contains explicit discount percentage
+Starlight Kitchen,"Looking for the best ramen bowls? We’ve got you covered with a free side, valid this weekend.",advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Dental Studio,"Try our new bootcamp classes and get free delivery. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Eye Clinic,Enjoy buy 1 get 1 free with every tomahawk steaks. Available exclusively if you preorder.,advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Steakhouse,Join now and receive buy 1 get 1 free on your first fresh flower bouquets. book online!,advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Pet Supply,Love climbing day passes? Take advantage of our 20% off happening before month-end.,advertisement,Contains explicit discount percentage
+Crimson Bike Shop,Love stationery bundles? Take advantage of our complimentary drink happening today.,advertisement,Time-limited call-to-action
+Bluebird Car Wash,"Try our new bootcamp classes and get 50% off. Limited-time only, swing by today.",advertisement,Contains explicit discount percentage
+Golden Climb Gym,Join now and receive 50% off on your first tomahawk steaks. reserve a table!,advertisement,Contains explicit discount percentage
+Harbor Steakhouse,First-time visitors get 20% off for ramen bowls. Offer ends today.,advertisement,Contains explicit discount percentage
+Sunset Pâtisserie,Join now and receive complimentary drink on your first signature burgers. sign up!,advertisement,Promotional tone with call-to-action
+Cedar Coffee Roasters,Special deal at gel manicures: enjoy buy 1 get 1 free when you download our app before this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Trattoria,Don’t wait—50% off across all cold brew coffee. Offer ends before month-end.,advertisement,Contains explicit discount percentage
+Rustic Kitchen,Special deal at dental cleanings: enjoy bonus class included when you join today before for the next 48 hours.,advertisement,Time-limited call-to-action
+Luna Pâtisserie,Special deal at wine tastings: enjoy a free side when you join today before today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Kitchen,First-time visitors get 50% off for succulent sets. Offer ends by Friday.,advertisement,Contains explicit discount percentage
+Sunset Ramen Bar,Join now and receive free delivery on your first teeth whitening. preorder!,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Pâtisserie,Join now and receive free delivery on your first bubble teas. visit us!,advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Nail Spa,Join now and receive bonus class included on your first taco trios. sign up!,advertisement,Promotional tone with call-to-action
+Pearl Bakery,Special deal at espresso drinks: enjoy a free sample gift when you grab yours before this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Fitness Club,Our sushi platters is now just $59. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Bamboo Cafe,Special deal at bootcamp classes: enjoy buy 1 get 1 free when you join today before this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Stonebridge Dental Studio,Enjoy bonus class included with every wine tastings. Available exclusively if you download our app.,advertisement,Promotional tone with call-to-action
+Luna Gelateria,Love succulent sets? Take advantage of our complimentary drink happening this weekend.,advertisement,Time-limited call-to-action
+Highland Burger Joint,Celebrate with us—buy 1 get 1 free on all tandoori specials this before month-end. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Wine Bar,Join now and receive 20% off on your first cold brew coffee. preorder!,advertisement,Contains explicit discount percentage
+Stonebridge Sushi Bar,Join now and receive a free side on your first bubble teas. visit us!,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Auto Detailing,Love dental cleanings? Take advantage of our buy 1 get 1 free happening today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Pâtisserie,"Looking for the best fresh flower bouquets? We’ve got you covered with complimentary drink, valid all of September.",advertisement,Promotional tone with call-to-action
+Stonebridge Gelateria,Don’t wait—20% off across all ramen bowls. Offer ends by Sunday night.,advertisement,Contains explicit discount percentage
+Aspen Barbershop,Join now and receive buy 1 get 1 free on your first wood-fired pizzas. order now!,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Tech Repair,Our dental cleanings is now just $69. Grab this deal before by Friday.,advertisement,Highlights specific price anchor as promotion
+Stonebridge Fitness Club,Don’t wait—bonus class included across all espresso drinks. Offer ends by Friday.,advertisement,Time-limited call-to-action
+Skyline Nail Spa,Our espresso drinks is now just $89. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Marble Kitchen,Don’t wait—a free sample gift across all dental cleanings. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Pet Supply,Our cold brew coffee is now just $99. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Bamboo Diner,Enjoy free delivery with every bubble teas. Available exclusively if you grab yours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Sushi Bar,Our yoga passes is now just $19. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Maple Tea House,Enjoy 20% off with every hair coloring packages. Available exclusively if you reserve a table.,advertisement,Contains explicit discount percentage
+Summit Bakery,Celebrate with us—buy 1 get 1 free on all wood-fired pizzas this today. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Pilates Studio,"Looking for the best tandoori specials? We’ve got you covered with complimentary drink, valid this week.",advertisement,Time-limited call-to-action
+Saffron Bike Shop,Celebrate with us—50% off on all wine tastings this all of September. Don’t miss out!,advertisement,Contains explicit discount percentage
+Marble Bike Shop,"Looking for the best dental cleanings? We’ve got you covered with a free sample gift, valid before month-end.",advertisement,Includes giveaway/freebie or BOGO promotion
+Sunset Tutoring Center,Our tandoori specials is now just $59. Grab this deal before by Sunday night.,advertisement,Highlights specific price anchor as promotion
+Starlight Pizzeria,Enjoy 30% off with every bootcamp classes. Available exclusively if you download our app.,advertisement,Contains explicit discount percentage
+Amber Nail Spa,Our sourdough loaves is now just $29. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Luna Pilates Studio,Special deal at fresh flower bouquets: enjoy 30% off when you order now before until supplies last.,advertisement,Contains explicit discount percentage
+Marble Hair Lounge,Special deal at teeth whitening: enjoy bonus class included when you book online before for the next 48 hours.,advertisement,Promotional tone with call-to-action
+Sunset Car Wash,Don’t wait—a free topping across all ramen bowls. Offer ends before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Music Academy,Special deal at wood-fired pizzas: enjoy bonus class included when you sign up before before month-end.,advertisement,Promotional tone with call-to-action
+Copper Pâtisserie,Don’t wait—20% off across all yoga passes. Offer ends this week.,advertisement,Contains explicit discount percentage
+Cobalt Bike Shop,Celebrate with us—bonus class included on all hair coloring packages this by Friday. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Golden Sushi Bar,Don’t wait—a free topping across all bubble teas. Offer ends for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Osteria,Join now and receive a free side on your first sushi platters. order now!,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Tech Repair,Enjoy a free topping with every wine tastings. Available exclusively if you join today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Pizzeria,Celebrate with us—a free sample gift on all climbing day passes this by Sunday night. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Bookshop,"Try our new stationery bundles and get a free sample gift. Limited-time only, grab yours today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Taproom,Join now and receive complimentary drink on your first sourdough loaves. sign up!,advertisement,Promotional tone with call-to-action
+Marble Nail Spa,Love wine tastings? Take advantage of our buy 1 get 1 free happening by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Bistro,Enjoy a free topping with every sushi platters. Available exclusively if you join today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Dental Studio,"Try our new tandoori specials and get 20% off. Limited-time only, swing by today.",advertisement,Contains explicit discount percentage
+Stonebridge Garden Center,Join now and receive a free topping on your first deep tissue massages. order now!,advertisement,Includes giveaway/freebie or BOGO promotion
+Sunset Music Academy,"Try our new bootcamp classes and get a free side. Limited-time only, order now today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Pilates Studio,Love hair coloring packages? Take advantage of our 50% off happening until supplies last.,advertisement,Contains explicit discount percentage
+Aspen Sushi Bar,"Try our new tandoori specials and get 50% off. Limited-time only, preorder today.",advertisement,Contains explicit discount percentage
+Sunset Music Academy,"Try our new hair coloring packages and get 50% off. Limited-time only, book online today.",advertisement,Contains explicit discount percentage
+Rustic Diner,Don’t wait—a free sample gift across all sourdough loaves. Offer ends until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Tech Repair,Love dental cleanings? Take advantage of our 30% off happening by Friday.,advertisement,Contains explicit discount percentage
+Sunset Bakery,"Looking for the best stationery bundles? We’ve got you covered with a free topping, valid this weekend.",advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Tea House,"Looking for the best cold brew coffee? We’ve got you covered with complimentary drink, valid today.",advertisement,Time-limited call-to-action
+Aspen Yoga Studio,Don’t wait—20% off across all wine tastings. Offer ends all of September.,advertisement,Contains explicit discount percentage
+Nova Diner,Love hair coloring packages? Take advantage of our a free topping happening today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Coffee Roasters,Enjoy a free topping with every climbing day passes. Available exclusively if you book online.,advertisement,Includes giveaway/freebie or BOGO promotion
+Juniper Diner,Don’t wait—bonus class included across all yoga passes. Offer ends by Sunday night.,advertisement,Time-limited call-to-action
+Bamboo Bookshop,Join now and receive free delivery on your first espresso drinks. visit us!,advertisement,Includes giveaway/freebie or BOGO promotion
+Starlight Yoga Studio,Don’t wait—a free side across all ramen bowls. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Trattoria,Join now and receive a free topping on your first bootcamp classes. download our app!,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Wine Bar,Love bootcamp classes? Take advantage of our free delivery happening this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Pâtisserie,Don’t wait—a free topping across all teeth whitening. Offer ends all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Coffee Roasters,"Looking for the best fresh flower bouquets? We’ve got you covered with buy 1 get 1 free, valid this week.",advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Bike Shop,"Looking for the best ramen bowls? We’ve got you covered with free delivery, valid this weekend.",advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Pâtisserie,Enjoy a free topping with every bootcamp classes. Available exclusively if you visit us.,advertisement,Includes giveaway/freebie or BOGO promotion
+Luna Cafe,Don’t wait—50% off across all deep tissue massages. Offer ends all of September.,advertisement,Contains explicit discount percentage
+Cobalt Bike Shop,Celebrate with us—20% off on all yoga passes this for the next 48 hours. Don’t miss out!,advertisement,Contains explicit discount percentage
+Nova Diner,"Looking for the best teeth whitening? We’ve got you covered with complimentary drink, valid this week.",advertisement,Time-limited call-to-action
+Riverstone Diner,First-time visitors get a free side for fresh flower bouquets. Offer ends all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Fitness Club,Join now and receive a free side on your first taco trios. join today!,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Bookshop,Celebrate with us—a free sample gift on all tomahawk steaks this all of September. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Bookshop,Celebrate with us—free delivery on all wood-fired pizzas this this weekend. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Sunset Wine Bar,Special deal at climbing day passes: enjoy a free topping when you reserve a table before for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Tutoring Center,Special deal at wine tastings: enjoy buy 1 get 1 free when you order now before by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Steakhouse,First-time visitors get 50% off for signature burgers. Offer ends by Friday.,advertisement,Contains explicit discount percentage
+Oakwood Osteria,Celebrate with us—bonus class included on all wine tastings this all of September. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Urban Trattoria,"Looking for the best sushi platters? We’ve got you covered with 20% off, valid until supplies last.",advertisement,Contains explicit discount percentage
+Skyline Bike Shop,Special deal at succulent sets: enjoy buy 1 get 1 free when you grab yours before until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Trattoria,"Looking for the best fresh flower bouquets? We’ve got you covered with a free sample gift, valid by Sunday night.",advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Bookshop,Join now and receive a free topping on your first eye exams. join today!,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Yoga Studio,"Looking for the best wine tastings? We’ve got you covered with bonus class included, valid today.",advertisement,Time-limited call-to-action
+Golden Osteria,"Try our new bubble teas and get a free sample gift. Limited-time only, visit us today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Coffee Roasters,Join now and receive a free topping on your first tandoori specials. sign up!,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Wine Bar,Don’t wait—30% off across all signature burgers. Offer ends this weekend.,advertisement,Contains explicit discount percentage
+Willow Sushi Bar,Our cold brew coffee is now just $69. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Cobalt Eye Clinic,First-time visitors get a free topping for gel manicures. Offer ends for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Luna Gelateria,"Try our new cold brew coffee and get 50% off. Limited-time only, download our app today.",advertisement,Contains explicit discount percentage
+Harbor Bike Shop,Our signature burgers is now just $19. Grab this deal before this weekend.,advertisement,Highlights specific price anchor as promotion
+Copper Trattoria,Enjoy 30% off with every yoga passes. Available exclusively if you swing by.,advertisement,Contains explicit discount percentage
+Crimson Climb Gym,Love stationery bundles? Take advantage of our a free side happening this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Cafe,Special deal at ramen bowls: enjoy 30% off when you preorder before all of September.,advertisement,Contains explicit discount percentage
+Bluebird Pet Supply,Love gel manicures? Take advantage of our bonus class included happening by Friday.,advertisement,Promotional tone with call-to-action
+Willow Wine Bar,Don’t wait—a free sample gift across all espresso drinks. Offer ends by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Saffron Garden Center,"Try our new ramen bowls and get 30% off. Limited-time only, visit us today.",advertisement,Contains explicit discount percentage
+Rosewood Auto Detailing,Join now and receive free delivery on your first sushi platters. order now!,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Tutoring Center,Don’t wait—50% off across all signature burgers. Offer ends for the next 48 hours.,advertisement,Contains explicit discount percentage
+Highland Steakhouse,"Looking for the best yoga passes? We’ve got you covered with a free topping, valid all of September.",advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Diner,Enjoy a free topping with every taco trios. Available exclusively if you reserve a table.,advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Bakery,Special deal at eye exams: enjoy free delivery when you visit us before by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Tech Repair,Join now and receive complimentary drink on your first succulent sets. order now!,advertisement,Promotional tone with call-to-action
+Pearl Music Academy,First-time visitors get free delivery for eye exams. Offer ends today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Diner,Our stationery bundles is now just $29. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Bamboo Day Spa,Special deal at tomahawk steaks: enjoy buy 1 get 1 free when you swing by before by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Steakhouse,First-time visitors get a free topping for bootcamp classes. Offer ends all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Tutoring Center,Special deal at taco trios: enjoy a free topping when you preorder before by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Rustic Pilates Studio,Join now and receive 50% off on your first espresso drinks. swing by!,advertisement,Contains explicit discount percentage
+Urban Bike Shop,Don’t wait—20% off across all cold brew coffee. Offer ends today.,advertisement,Contains explicit discount percentage
+Luna Dental Studio,Special deal at teeth whitening: enjoy 20% off when you preorder before by Sunday night.,advertisement,Contains explicit discount percentage
+Seaside Pizzeria,Celebrate with us—30% off on all dental cleanings this by Sunday night. Don’t miss out!,advertisement,Contains explicit discount percentage
+Marble Diner,First-time visitors get a free side for succulent sets. Offer ends before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Diner,Love wine tastings? Take advantage of our a free topping happening this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Juniper Tutoring Center,Special deal at fresh flower bouquets: enjoy bonus class included when you order now before by Friday.,advertisement,Promotional tone with call-to-action
+Golden Yoga Studio,"Looking for the best teeth whitening? We’ve got you covered with buy 1 get 1 free, valid today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Tech Repair,Special deal at sushi platters: enjoy 30% off when you download our app before by Friday.,advertisement,Contains explicit discount percentage
+Maple Pâtisserie,Special deal at teeth whitening: enjoy complimentary drink when you visit us before before month-end.,advertisement,Promotional tone with call-to-action
+Golden Gelateria,Join now and receive a free topping on your first signature burgers. preorder!,advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Diner,Celebrate with us—free delivery on all signature burgers this for the next 48 hours. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Bookshop,"Looking for the best tomahawk steaks? We’ve got you covered with 20% off, valid by Sunday night.",advertisement,Contains explicit discount percentage
+Amber Osteria,Enjoy a free side with every espresso drinks. Available exclusively if you preorder.,advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Music Academy,Our signature burgers is now just $79. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Riverstone Hair Lounge,Our ramen bowls is now just $99. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Aspen Hair Lounge,"Try our new ramen bowls and get a free sample gift. Limited-time only, reserve a table today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Taproom,Our sushi platters is now just $29. Grab this deal before by Friday.,advertisement,Highlights specific price anchor as promotion
+Bamboo Kitchen,"Try our new cold brew coffee and get 30% off. Limited-time only, visit us today.",advertisement,Contains explicit discount percentage
+Riverstone Kitchen,"Looking for the best tomahawk steaks? We’ve got you covered with a free sample gift, valid this week.",advertisement,Includes giveaway/freebie or BOGO promotion
+Cobalt Steakhouse,Our bootcamp classes is now just $79. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Amber Eye Clinic,Love eye exams? Take advantage of our free delivery happening for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Ramen Bar,Join now and receive 20% off on your first tandoori specials. grab yours!,advertisement,Contains explicit discount percentage
+Stonebridge Eye Clinic,Don’t wait—buy 1 get 1 free across all eye exams. Offer ends all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Tea House,Special deal at fresh flower bouquets: enjoy a free topping when you order now before for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Cafe,"Looking for the best sushi platters? We’ve got you covered with 20% off, valid for the next 48 hours.",advertisement,Contains explicit discount percentage
+Cedar Climb Gym,Don’t wait—bonus class included across all espresso drinks. Offer ends today.,advertisement,Time-limited call-to-action
+Highland Bistro,Special deal at tandoori specials: enjoy a free topping when you book online before before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Bakery,Love fresh flower bouquets? Take advantage of our a free sample gift happening all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Urban Music Academy,Love bootcamp classes? Take advantage of our 30% off happening today.,advertisement,Contains explicit discount percentage
+Oakwood Barbershop,"Try our new gel manicures and get 20% off. Limited-time only, book online today.",advertisement,Contains explicit discount percentage
+Cobalt Cafe,Celebrate with us—a free sample gift on all yoga passes this before month-end. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Ramen Bar,Our eye exams is now just $49. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Bamboo Garden Center,"Looking for the best eye exams? We’ve got you covered with buy 1 get 1 free, valid for the next 48 hours.",advertisement,Includes giveaway/freebie or BOGO promotion
+Juniper Nail Spa,Enjoy 20% off with every tandoori specials. Available exclusively if you sign up.,advertisement,Contains explicit discount percentage
+Nova Burger Joint,First-time visitors get a free side for espresso drinks. Offer ends today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Nail Spa,Special deal at wine tastings: enjoy a free side when you reserve a table before today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Yoga Studio,"Looking for the best gel manicures? We’ve got you covered with bonus class included, valid this weekend.",advertisement,Time-limited call-to-action
+Maple Tutoring Center,"Try our new tandoori specials and get free delivery. Limited-time only, join today today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Ramen Bar,Our tandoori specials is now just $99. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Oakwood Tech Repair,First-time visitors get complimentary drink for ramen bowls. Offer ends this week.,advertisement,Time-limited call-to-action
+Skyline Hair Lounge,Special deal at bootcamp classes: enjoy a free side when you download our app before for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Eye Clinic,Love teeth whitening? Take advantage of our bonus class included happening for the next 48 hours.,advertisement,Promotional tone with call-to-action
+Skyline Steakhouse,"Try our new teeth whitening and get a free side. Limited-time only, book online today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Eye Clinic,Special deal at hair coloring packages: enjoy a free topping when you preorder before for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Kitchen,Celebrate with us—bonus class included on all wine tastings this until supplies last. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Silverleaf Barbershop,"Try our new signature burgers and get a free topping. Limited-time only, join today today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Nail Spa,Our gel manicures is now just $49. Grab this deal before by Sunday night.,advertisement,Highlights specific price anchor as promotion
+Cobalt Nail Spa,First-time visitors get bonus class included for climbing day passes. Offer ends for the next 48 hours.,advertisement,Time-limited call-to-action
+Harbor Bookshop,"Try our new wood-fired pizzas and get 50% off. Limited-time only, reserve a table today.",advertisement,Contains explicit discount percentage
+Nova Bookshop,Love bubble teas? Take advantage of our a free side happening until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bamboo Taproom,Join now and receive 30% off on your first tomahawk steaks. swing by!,advertisement,Contains explicit discount percentage
+Cedar Yoga Studio,Celebrate with us—bonus class included on all ramen bowls this by Friday. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Moonrise Trattoria,Special deal at fresh flower bouquets: enjoy a free sample gift when you order now before this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Pizzeria,Join now and receive 50% off on your first eye exams. download our app!,advertisement,Contains explicit discount percentage
+Fairview Tech Repair,"Try our new tandoori specials and get bonus class included. Limited-time only, sign up today.",advertisement,Time-limited call-to-action
+Harbor Garden Center,First-time visitors get a free topping for signature burgers. Offer ends today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Gelateria,Celebrate with us—complimentary drink on all yoga passes this before month-end. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Marble Fitness Club,Enjoy 50% off with every bubble teas. Available exclusively if you grab yours.,advertisement,Contains explicit discount percentage
+Harbor Pilates Studio,First-time visitors get 50% off for fresh flower bouquets. Offer ends by Sunday night.,advertisement,Contains explicit discount percentage
+Summit Sushi Bar,Celebrate with us—free delivery on all gel manicures this this weekend. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Trattoria,First-time visitors get 50% off for succulent sets. Offer ends before month-end.,advertisement,Contains explicit discount percentage
+Sunset Music Academy,First-time visitors get complimentary drink for stationery bundles. Offer ends this week.,advertisement,Time-limited call-to-action
+Sunset Pizzeria,Celebrate with us—50% off on all tandoori specials this by Sunday night. Don’t miss out!,advertisement,Contains explicit discount percentage
+Bluebird Bakery,"Looking for the best deep tissue massages? We’ve got you covered with free delivery, valid all of September.",advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Fitness Club,Love fresh flower bouquets? Take advantage of our free delivery happening until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Harbor Tech Repair,Enjoy 20% off with every wine tastings. Available exclusively if you visit us.,advertisement,Contains explicit discount percentage
+Pearl Gelateria,Love bubble teas? Take advantage of our 30% off happening this week.,advertisement,Contains explicit discount percentage
+Cobalt Hair Lounge,Our wood-fired pizzas is now just $69. Grab this deal before this weekend.,advertisement,Highlights specific price anchor as promotion
+Harbor Gelateria,Don’t wait—50% off across all succulent sets. Offer ends today.,advertisement,Contains explicit discount percentage
+Bluebird Auto Detailing,Love wine tastings? Take advantage of our 20% off happening this week.,advertisement,Contains explicit discount percentage
+Pearl Pâtisserie,Join now and receive free delivery on your first climbing day passes. preorder!,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Pet Supply,Join now and receive 50% off on your first espresso drinks. grab yours!,advertisement,Contains explicit discount percentage
+Starlight Diner,Love teeth whitening? Take advantage of our 50% off happening by Sunday night.,advertisement,Contains explicit discount percentage
+Summit Kitchen,Don’t wait—50% off across all yoga passes. Offer ends by Friday.,advertisement,Contains explicit discount percentage
+Crimson Day Spa,"Try our new succulent sets and get buy 1 get 1 free. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Nail Spa,Our signature burgers is now just $19. Grab this deal before today.,advertisement,Highlights specific price anchor as promotion
+Sunset Barbershop,Our espresso drinks is now just $89. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Juniper Dental Studio,"Try our new deep tissue massages and get free delivery. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Taproom,Don’t wait—a free side across all espresso drinks. Offer ends before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Cobalt Sushi Bar,Enjoy buy 1 get 1 free with every taco trios. Available exclusively if you order now.,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Pizzeria,Celebrate with us—a free topping on all wine tastings this by Friday. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Cafe,Join now and receive free delivery on your first bootcamp classes. download our app!,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Tutoring Center,"Looking for the best tandoori specials? We’ve got you covered with complimentary drink, valid today.",advertisement,Time-limited call-to-action
+Golden Burger Joint,Join now and receive complimentary drink on your first gel manicures. preorder!,advertisement,Promotional tone with call-to-action
+Oakwood Climb Gym,Join now and receive a free side on your first wine tastings. swing by!,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Steakhouse,"Looking for the best deep tissue massages? We’ve got you covered with free delivery, valid by Friday.",advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Auto Detailing,Join now and receive a free side on your first deep tissue massages. visit us!,advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Wine Bar,First-time visitors get a free side for hair coloring packages. Offer ends until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Nail Spa,Enjoy buy 1 get 1 free with every tomahawk steaks. Available exclusively if you grab yours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Eye Clinic,"Try our new signature burgers and get a free sample gift. Limited-time only, sign up today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Bookshop,Don’t wait—buy 1 get 1 free across all yoga passes. Offer ends for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Pet Supply,Don’t wait—bonus class included across all teeth whitening. Offer ends by Sunday night.,advertisement,Time-limited call-to-action
+Urban Garden Center,"Try our new sushi platters and get 30% off. Limited-time only, swing by today.",advertisement,Contains explicit discount percentage
+Summit Tech Repair,Our hair coloring packages is now just $69. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Riverstone Pâtisserie,Love eye exams? Take advantage of our 50% off happening by Sunday night.,advertisement,Contains explicit discount percentage
+Bluebird Eye Clinic,Join now and receive a free sample gift on your first succulent sets. grab yours!,advertisement,Includes giveaway/freebie or BOGO promotion
+Aspen Bakery,Our teeth whitening is now just $99. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Moonrise Burger Joint,First-time visitors get a free side for yoga passes. Offer ends by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Urban Tea House,Don’t wait—bonus class included across all climbing day passes. Offer ends by Sunday night.,advertisement,Time-limited call-to-action
+Copper Fitness Club,Don’t wait—50% off across all climbing day passes. Offer ends by Friday.,advertisement,Contains explicit discount percentage
+Stonebridge Coffee Roasters,Special deal at gel manicures: enjoy free delivery when you download our app before by Sunday night.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Coffee Roasters,Join now and receive complimentary drink on your first tomahawk steaks. grab yours!,advertisement,Promotional tone with call-to-action
+Maple Bike Shop,Special deal at signature burgers: enjoy 20% off when you book online before this weekend.,advertisement,Contains explicit discount percentage
+Urban Dental Studio,Special deal at hair coloring packages: enjoy bonus class included when you join today before this weekend.,advertisement,Time-limited call-to-action
+Silverleaf Day Spa,Love taco trios? Take advantage of our a free sample gift happening by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Fairview Music Academy,Love deep tissue massages? Take advantage of our buy 1 get 1 free happening before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Auto Detailing,Enjoy a free topping with every espresso drinks. Available exclusively if you order now.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Sushi Bar,First-time visitors get 30% off for succulent sets. Offer ends for the next 48 hours.,advertisement,Contains explicit discount percentage
+Stonebridge Dental Studio,Our ramen bowls is now just $29. Grab this deal before this weekend.,advertisement,Highlights specific price anchor as promotion
+Sunset Diner,Enjoy bonus class included with every ramen bowls. Available exclusively if you join today.,advertisement,Time-limited call-to-action
+Cobalt Sushi Bar,Love succulent sets? Take advantage of our free delivery happening for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Hair Lounge,Celebrate with us—a free topping on all gel manicures this today. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Trattoria,Our espresso drinks is now just $49. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Skyline Florist,Our hair coloring packages is now just $79. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Highland Day Spa,Don’t wait—20% off across all wine tastings. Offer ends by Friday.,advertisement,Contains explicit discount percentage
+Riverstone Bistro,Love fresh flower bouquets? Take advantage of our complimentary drink happening by Friday.,advertisement,Promotional tone with call-to-action
+Marble Taproom,Join now and receive a free sample gift on your first yoga passes. preorder!,advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Bakery,Celebrate with us—a free topping on all fresh flower bouquets this by Sunday night. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Sushi Bar,Enjoy a free side with every wine tastings. Available exclusively if you preorder.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Garden Center,Love dental cleanings? Take advantage of our 20% off happening for the next 48 hours.,advertisement,Contains explicit discount percentage
+Velvet Tea House,Love sushi platters? Take advantage of our a free topping happening this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Cafe,"Looking for the best sushi platters? We’ve got you covered with 20% off, valid by Friday.",advertisement,Contains explicit discount percentage
+Silverleaf Pet Supply,"Try our new hair coloring packages and get 30% off. Limited-time only, join today today.",advertisement,Contains explicit discount percentage
+Skyline Burger Joint,Our cold brew coffee is now just $29. Grab this deal before by Friday.,advertisement,Highlights specific price anchor as promotion
+Rustic Coffee Roasters,"Try our new sourdough loaves and get bonus class included. Limited-time only, download our app today.",advertisement,Time-limited call-to-action
+Luna Coffee Roasters,"Try our new ramen bowls and get a free sample gift. Limited-time only, order now today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Bamboo Wine Bar,Celebrate with us—a free topping on all taco trios this this weekend. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Stonebridge Wine Bar,Our sushi platters is now just $29. Grab this deal before before month-end.,advertisement,Highlights specific price anchor as promotion
+Seaside Florist,"Looking for the best yoga passes? We’ve got you covered with free delivery, valid for the next 48 hours.",advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Burger Joint,"Looking for the best ramen bowls? We’ve got you covered with 50% off, valid this weekend.",advertisement,Contains explicit discount percentage
+Stonebridge Taproom,Join now and receive 30% off on your first stationery bundles. preorder!,advertisement,Contains explicit discount percentage
+Riverstone Diner,Celebrate with us—buy 1 get 1 free on all sushi platters this all of September. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Pet Supply,Join now and receive bonus class included on your first hair coloring packages. reserve a table!,advertisement,Promotional tone with call-to-action
+Highland Trattoria,Join now and receive a free sample gift on your first hair coloring packages. book online!,advertisement,Includes giveaway/freebie or BOGO promotion
+Marble Wine Bar,Enjoy a free topping with every tomahawk steaks. Available exclusively if you reserve a table.,advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Barbershop,Join now and receive 20% off on your first bubble teas. order now!,advertisement,Contains explicit discount percentage
+Copper Bike Shop,Enjoy free delivery with every stationery bundles. Available exclusively if you swing by.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bamboo Taproom,Enjoy 50% off with every bubble teas. Available exclusively if you preorder.,advertisement,Contains explicit discount percentage
+Maple Pizzeria,Don’t wait—complimentary drink across all taco trios. Offer ends by Sunday night.,advertisement,Time-limited call-to-action
+Harbor Pâtisserie,Don’t wait—complimentary drink across all ramen bowls. Offer ends by Friday.,advertisement,Time-limited call-to-action
+Summit Tea House,"Try our new wood-fired pizzas and get a free side. Limited-time only, grab yours today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Auto Detailing,Love signature burgers? Take advantage of our a free topping happening for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Pâtisserie,Enjoy 50% off with every bubble teas. Available exclusively if you reserve a table.,advertisement,Contains explicit discount percentage
+Luna Auto Detailing,"Looking for the best climbing day passes? We’ve got you covered with 30% off, valid today.",advertisement,Contains explicit discount percentage
+Rosewood Nail Spa,Special deal at tomahawk steaks: enjoy complimentary drink when you sign up before all of September.,advertisement,Promotional tone with call-to-action
+Bamboo Bakery,Don’t wait—free delivery across all sourdough loaves. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Pet Supply,Enjoy a free side with every stationery bundles. Available exclusively if you download our app.,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Ramen Bar,Love fresh flower bouquets? Take advantage of our complimentary drink happening this weekend.,advertisement,Time-limited call-to-action
+Highland Gelateria,Don’t wait—a free sample gift across all fresh flower bouquets. Offer ends today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Bistro,Our fresh flower bouquets is now just $89. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Nova Garden Center,Celebrate with us—a free side on all espresso drinks this today. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Dental Studio,"Looking for the best yoga passes? We’ve got you covered with a free side, valid this week.",advertisement,Includes giveaway/freebie or BOGO promotion
+Nova Dental Studio,Join now and receive a free topping on your first gel manicures. visit us!,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Tech Repair,Don’t wait—bonus class included across all eye exams. Offer ends this weekend.,advertisement,Time-limited call-to-action
+Seaside Pilates Studio,Our gel manicures is now just $89. Grab this deal before by Sunday night.,advertisement,Highlights specific price anchor as promotion
+Bluebird Music Academy,Special deal at deep tissue massages: enjoy a free side when you preorder before by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Highland Diner,Enjoy free delivery with every bootcamp classes. Available exclusively if you visit us.,advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Steakhouse,Don’t wait—a free side across all wine tastings. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Music Academy,Our succulent sets is now just $59. Grab this deal before today.,advertisement,Highlights specific price anchor as promotion
+Rustic Auto Detailing,Enjoy 30% off with every bootcamp classes. Available exclusively if you order now.,advertisement,Contains explicit discount percentage
+Rosewood Gelateria,Enjoy a free side with every wine tastings. Available exclusively if you sign up.,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Cafe,"Try our new teeth whitening and get a free topping. Limited-time only, reserve a table today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Crimson Sushi Bar,Special deal at sourdough loaves: enjoy bonus class included when you book online before until supplies last.,advertisement,Promotional tone with call-to-action
+Sunset Yoga Studio,Don’t wait—20% off across all fresh flower bouquets. Offer ends for the next 48 hours.,advertisement,Contains explicit discount percentage
+Aspen Wine Bar,Don’t wait—50% off across all bootcamp classes. Offer ends before month-end.,advertisement,Contains explicit discount percentage
+Ivy Ramen Bar,First-time visitors get a free topping for stationery bundles. Offer ends before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Tea House,Enjoy free delivery with every bubble teas. Available exclusively if you reserve a table.,advertisement,Includes giveaway/freebie or BOGO promotion
+Rosewood Steakhouse,Celebrate with us—buy 1 get 1 free on all gel manicures this before month-end. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Stonebridge Bike Shop,Don’t wait—a free topping across all bubble teas. Offer ends before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Seaside Music Academy,Our cold brew coffee is now just $39. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Silverleaf Florist,Join now and receive buy 1 get 1 free on your first deep tissue massages. reserve a table!,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Bakery,Love stationery bundles? Take advantage of our 20% off happening all of September.,advertisement,Contains explicit discount percentage
+Cedar Florist,Special deal at wine tastings: enjoy a free sample gift when you order now before all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Climb Gym,Enjoy complimentary drink with every sushi platters. Available exclusively if you sign up.,advertisement,Promotional tone with call-to-action
+Luna Day Spa,Our wine tastings is now just $19. Grab this deal before this weekend.,advertisement,Highlights specific price anchor as promotion
+Riverstone Bistro,Special deal at dental cleanings: enjoy complimentary drink when you order now before by Sunday night.,advertisement,Promotional tone with call-to-action
+Seaside Eye Clinic,Special deal at sourdough loaves: enjoy 20% off when you reserve a table before until supplies last.,advertisement,Contains explicit discount percentage
+Saffron Music Academy,Join now and receive buy 1 get 1 free on your first deep tissue massages. join today!,advertisement,Includes giveaway/freebie or BOGO promotion
+Saffron Car Wash,Enjoy complimentary drink with every taco trios. Available exclusively if you book online.,advertisement,Promotional tone with call-to-action
+Oakwood Tutoring Center,Enjoy bonus class included with every bubble teas. Available exclusively if you visit us.,advertisement,Promotional tone with call-to-action
+Pearl Bistro,"Looking for the best taco trios? We’ve got you covered with 20% off, valid before month-end.",advertisement,Contains explicit discount percentage
+Bamboo Bistro,Special deal at tomahawk steaks: enjoy bonus class included when you swing by before all of September.,advertisement,Promotional tone with call-to-action
+Fairview Florist,Join now and receive complimentary drink on your first teeth whitening. reserve a table!,advertisement,Promotional tone with call-to-action
+Cobalt Day Spa,Special deal at gel manicures: enjoy a free topping when you book online before all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Ramen Bar,Celebrate with us—bonus class included on all bootcamp classes this until supplies last. Don’t miss out!,advertisement,Promotional tone with call-to-action
+Stonebridge Dental Studio,"Try our new fresh flower bouquets and get 20% off. Limited-time only, book online today.",advertisement,Contains explicit discount percentage
+Silverleaf Burger Joint,Our tomahawk steaks is now just $29. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Highland Climb Gym,"Try our new wood-fired pizzas and get bonus class included. Limited-time only, order now today.",advertisement,Time-limited call-to-action
+Cobalt Bistro,Enjoy 50% off with every stationery bundles. Available exclusively if you download our app.,advertisement,Contains explicit discount percentage
+Marble Pizzeria,Our wood-fired pizzas is now just $49. Grab this deal before for the next 48 hours.,advertisement,Highlights specific price anchor as promotion
+Crimson Tech Repair,Enjoy a free side with every sushi platters. Available exclusively if you reserve a table.,advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Hair Lounge,First-time visitors get 50% off for cold brew coffee. Offer ends this week.,advertisement,Contains explicit discount percentage
+Rosewood Tea House,Don’t wait—bonus class included across all ramen bowls. Offer ends until supplies last.,advertisement,Time-limited call-to-action
+Rustic Auto Detailing,Our deep tissue massages is now just $89. Grab this deal before all of September.,advertisement,Highlights specific price anchor as promotion
+Fairview Bookshop,Enjoy 50% off with every succulent sets. Available exclusively if you reserve a table.,advertisement,Contains explicit discount percentage
+Bluebird Diner,Love yoga passes? Take advantage of our complimentary drink happening this weekend.,advertisement,Time-limited call-to-action
+Rosewood Taproom,Celebrate with us—a free topping on all tandoori specials this until supplies last. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Sunset Dental Studio,Don’t wait—a free sample gift across all cold brew coffee. Offer ends for the next 48 hours.,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Dental Studio,Don’t wait—50% off across all climbing day passes. Offer ends this weekend.,advertisement,Contains explicit discount percentage
+Fairview Tea House,Don’t wait—a free side across all stationery bundles. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Bike Shop,Our sushi platters is now just $49. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Harbor Pet Supply,Join now and receive buy 1 get 1 free on your first dental cleanings. download our app!,advertisement,Includes giveaway/freebie or BOGO promotion
+Juniper Taproom,"Try our new taco trios and get complimentary drink. Limited-time only, reserve a table today.",advertisement,Time-limited call-to-action
+Golden Barbershop,Don’t wait—free delivery across all succulent sets. Offer ends by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Copper Yoga Studio,First-time visitors get a free side for succulent sets. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Bookshop,Don’t wait—buy 1 get 1 free across all signature burgers. Offer ends until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Burger Joint,Special deal at sushi platters: enjoy a free topping when you grab yours before before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Moonrise Bookshop,Our gel manicures is now just $99. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Skyline Music Academy,Our gel manicures is now just $69. Grab this deal before by Friday.,advertisement,Highlights specific price anchor as promotion
+Nova Pilates Studio,"Try our new eye exams and get 20% off. Limited-time only, preorder today.",advertisement,Contains explicit discount percentage
+Juniper Trattoria,Don’t wait—30% off across all wine tastings. Offer ends by Sunday night.,advertisement,Contains explicit discount percentage
+Copper Music Academy,Love bootcamp classes? Take advantage of our a free side happening before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Cafe,Don’t wait—30% off across all signature burgers. Offer ends until supplies last.,advertisement,Contains explicit discount percentage
+Amber Tutoring Center,Special deal at taco trios: enjoy a free side when you sign up before until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Urban Garden Center,Enjoy complimentary drink with every tandoori specials. Available exclusively if you join today.,advertisement,Time-limited call-to-action
+Copper Pâtisserie,"Try our new dental cleanings and get bonus class included. Limited-time only, swing by today.",advertisement,Time-limited call-to-action
+Summit Gelateria,Special deal at taco trios: enjoy bonus class included when you book online before all of September.,advertisement,Promotional tone with call-to-action
+Amber Garden Center,Don’t wait—free delivery across all espresso drinks. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Ivy Taproom,"Try our new hair coloring packages and get a free side. Limited-time only, grab yours today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Burger Joint,Celebrate with us—50% off on all succulent sets this until supplies last. Don’t miss out!,advertisement,Contains explicit discount percentage
+Marble Pilates Studio,Our espresso drinks is now just $49. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Golden Steakhouse,Love taco trios? Take advantage of our a free side happening before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Tutoring Center,"Looking for the best teeth whitening? We’ve got you covered with a free sample gift, valid for the next 48 hours.",advertisement,Includes giveaway/freebie or BOGO promotion
+Willow Garden Center,"Looking for the best eye exams? We’ve got you covered with free delivery, valid by Sunday night.",advertisement,Includes giveaway/freebie or BOGO promotion
+Sunset Barbershop,Special deal at fresh flower bouquets: enjoy 50% off when you swing by before this week.,advertisement,Contains explicit discount percentage
+Rosewood Garden Center,Love bubble teas? Take advantage of our a free side happening this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Amber Gelateria,Our succulent sets is now just $39. Grab this deal before by Sunday night.,advertisement,Highlights specific price anchor as promotion
+Maple Cafe,Don’t wait—a free side across all sushi platters. Offer ends this weekend.,advertisement,Includes giveaway/freebie or BOGO promotion
+Aspen Diner,Love sourdough loaves? Take advantage of our a free sample gift happening before month-end.,advertisement,Includes giveaway/freebie or BOGO promotion
+Skyline Car Wash,Celebrate with us—buy 1 get 1 free on all succulent sets this this week. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Rustic Bakery,"Looking for the best dental cleanings? We’ve got you covered with free delivery, valid before month-end.",advertisement,Includes giveaway/freebie or BOGO promotion
+Pearl Coffee Roasters,Special deal at bubble teas: enjoy 20% off when you swing by before all of September.,advertisement,Contains explicit discount percentage
+Amber Pet Supply,"Looking for the best fresh flower bouquets? We’ve got you covered with a free sample gift, valid today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Rustic Wine Bar,"Try our new bootcamp classes and get a free side. Limited-time only, download our app today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Maple Auto Detailing,"Try our new dental cleanings and get complimentary drink. Limited-time only, grab yours today.",advertisement,Time-limited call-to-action
+Velvet Fitness Club,Special deal at bubble teas: enjoy complimentary drink when you sign up before all of September.,advertisement,Promotional tone with call-to-action
+Silverleaf Music Academy,Join now and receive 30% off on your first taco trios. join today!,advertisement,Contains explicit discount percentage
+Maple Kitchen,Celebrate with us—complimentary drink on all sushi platters this today. Don’t miss out!,advertisement,Time-limited call-to-action
+Fairview Pizzeria,Celebrate with us—20% off on all succulent sets this this week. Don’t miss out!,advertisement,Contains explicit discount percentage
+Willow Car Wash,Don’t wait—buy 1 get 1 free across all succulent sets. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Bluebird Pizzeria,Don’t wait—bonus class included across all tomahawk steaks. Offer ends for the next 48 hours.,advertisement,Time-limited call-to-action
+Summit Taproom,Our tomahawk steaks is now just $29. Grab this deal before today.,advertisement,Highlights specific price anchor as promotion
+Nova Kitchen,Enjoy a free sample gift with every succulent sets. Available exclusively if you join today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Riverstone Dental Studio,"Try our new bubble teas and get 20% off. Limited-time only, swing by today.",advertisement,Contains explicit discount percentage
+Silverleaf Garden Center,Love succulent sets? Take advantage of our 50% off happening today.,advertisement,Contains explicit discount percentage
+Bluebird Auto Detailing,Celebrate with us—a free topping on all wine tastings this until supplies last. Don’t miss out!,advertisement,Includes giveaway/freebie or BOGO promotion
+Velvet Cafe,Don’t wait—bonus class included across all deep tissue massages. Offer ends for the next 48 hours.,advertisement,Time-limited call-to-action
+Starlight Hair Lounge,"Looking for the best cold brew coffee? We’ve got you covered with bonus class included, valid this week.",advertisement,Time-limited call-to-action
+Aspen Florist,Don’t wait—buy 1 get 1 free across all wine tastings. Offer ends this week.,advertisement,Includes giveaway/freebie or BOGO promotion
+Saffron Trattoria,Our taco trios is now just $39. Grab this deal before until supplies last.,advertisement,Highlights specific price anchor as promotion
+Nova Burger Joint,Special deal at deep tissue massages: enjoy a free sample gift when you preorder before today.,advertisement,Includes giveaway/freebie or BOGO promotion
+Starlight Nail Spa,Love gel manicures? Take advantage of our buy 1 get 1 free happening all of September.,advertisement,Includes giveaway/freebie or BOGO promotion
+Cedar Fitness Club,Special deal at cold brew coffee: enjoy a free topping when you join today before until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Summit Eye Clinic,Enjoy bonus class included with every bootcamp classes. Available exclusively if you download our app.,advertisement,Promotional tone with call-to-action
+Aspen Bookshop,Join now and receive bonus class included on your first gel manicures. grab yours!,advertisement,Promotional tone with call-to-action
+Stonebridge Car Wash,Enjoy a free topping with every cold brew coffee. Available exclusively if you visit us.,advertisement,Includes giveaway/freebie or BOGO promotion
+Golden Bike Shop,Join now and receive 50% off on your first succulent sets. preorder!,advertisement,Contains explicit discount percentage
+Juniper Pilates Studio,Our taco trios is now just $39. Grab this deal before this week.,advertisement,Highlights specific price anchor as promotion
+Pearl Bike Shop,Special deal at succulent sets: enjoy 20% off when you join today before by Friday.,advertisement,Contains explicit discount percentage
+Urban Pizzeria,"Looking for the best cold brew coffee? We’ve got you covered with a free side, valid before month-end.",advertisement,Includes giveaway/freebie or BOGO promotion
+Rustic Burger Joint,"Looking for the best tomahawk steaks? We’ve got you covered with free delivery, valid today.",advertisement,Includes giveaway/freebie or BOGO promotion
+Luna Pâtisserie,Our tomahawk steaks is now just $49. Grab this deal before today.,advertisement,Highlights specific price anchor as promotion
+Bamboo Wine Bar,Love hair coloring packages? Take advantage of our buy 1 get 1 free happening until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Hair Lounge,Celebrate with us—50% off on all sushi platters this this weekend. Don’t miss out!,advertisement,Contains explicit discount percentage
+Copper Taproom,Love wood-fired pizzas? Take advantage of our buy 1 get 1 free happening until supplies last.,advertisement,Includes giveaway/freebie or BOGO promotion
+Oakwood Pet Supply,Love tandoori specials? Take advantage of our complimentary drink happening until supplies last.,advertisement,Promotional tone with call-to-action
+Saffron Music Academy,Love fresh flower bouquets? Take advantage of our bonus class included happening today.,advertisement,Time-limited call-to-action
+Starlight Steakhouse,Join now and receive complimentary drink on your first wood-fired pizzas. reserve a table!,advertisement,Promotional tone with call-to-action
+Copper Bistro,"Try our new teeth whitening and get 30% off. Limited-time only, reserve a table today.",advertisement,Contains explicit discount percentage
+Summit Pilates Studio,Love eye exams? Take advantage of our a free topping happening by Friday.,advertisement,Includes giveaway/freebie or BOGO promotion
+Silverleaf Pet Supply,Celebrate with us—50% off on all teeth whitening this by Friday. Don’t miss out!,advertisement,Contains explicit discount percentage
