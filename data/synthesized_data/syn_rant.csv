@@ -112,4 +112,3 @@ business_name,text,predicted_label,prediction_reason,description,category
 "Tutoring Center","If kids paid attention in school, they wouldn't need tutors.",Rant_Without_Visit,"Judgmental about tutoring need without using service.","Academic tutoring for K-12 students","['Tutoring', 'Academic support', 'Learning center', 'Education service']"
 "Spin Class Studio","Riding a bike that goes nowhere? Pointless torture.",Rant_Without_Visit,"Dismissive of spinning concept without trying classes.","Indoor cycling studio with energetic classes","['Spin studio', 'Cycling studio', 'Spin class', 'Fitness studio']"
 "Doggy Spa","A spa for dogs while humans can't afford healthcare? Disgusting priorities.",Rant_Without_Visit,"Social commentary about pet services without using them.","Luxury pet grooming and spa treatments","['Pet spa', 'Dog spa', 'Pet grooming', 'Luxury pet care']"
-"Gluten-
