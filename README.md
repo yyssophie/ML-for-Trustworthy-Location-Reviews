@@ -171,16 +171,3 @@ ML-for-Trustworthy-Location-Reviews/
 ├─ requirements.txt
 └─ README.md
 ```
-
----
-
-## Reproducibility Notes
-
-The notebook currently sets `seed = random.randint(0, 100)`. For stable, repeatable splits and results, replace with a constant, e.g.:
-
-```python
-seed = 42
-```
-
----
-
