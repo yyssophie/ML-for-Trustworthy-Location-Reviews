@@ -163,9 +163,11 @@ ML-for-Trustworthy-Location-Reviews/
 │  └─ out/
 │     └─ augmented_shuffled.csv        # input (you provide)
 │    
-├─ results/
-│  └─ <model-name>/checkpoint-XXXX/    # saved checkpoints
-├─ test_colab_final.ipynb              # main notebook
+├─ examples/
+│  ├─ results/
+│  │  └─ <model-name>/checkpoint-XXXX/    # saved checkpoints
+│  ├─ stage1.ipynb                     # main notebook1
+│  └─ stage2.ipynb                     # main notebook2
 ├─ requirements.txt
 └─ README.md
 ```
