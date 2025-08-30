@@ -1,0 +1,16 @@
+# Core ML stack
+transformers>=4.41.0
+datasets>=2.19.0
+accelerate>=0.30.0
+
+# Numerical + metrics
+numpy>=1.26.4
+scikit-learn>=1.4.2
+pandas>=2.2.2
+
+# Progress bars / Jupyter widgets
+tqdm>=4.66.4
+ipywidgets>=8.1.2
+
+# PyTorch (install the right CUDA build for your machine)
+torch>=2.3.0
